@@ -1,9 +1,23 @@
-.main-container {
-  margin: 50px;
+body {
   background-color: #C0E8D3;
-  height: 1000px;
 }
 
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+.main-container {
+  margin: 50px;
+  height: 1000px;
+}
 
 .game {
   margin: 100px;
@@ -24,4 +38,37 @@
 .circle {
   background-image: url('/circle.png');
   background-size: 169px 102px;
+}
+
+header {
+  height: 50px;
+  background-color: #1E3725;
+  color: #FFFFFF;
+  padding: 12px;
+}
+
+header h1{
+  display: inline-block;
+}
+
+header ul {
+  display: inline-block;
+  float: right;
+  height: 18px;
+  margin-top: 12px;
+}
+
+header li {
+  display: inline;
+  font-size: 18px;
+  font-weight: normal;
+  margin-right: 5px;
+  padding: 8px;
+  border: 1px solid #1E3725;
+}
+
+header li:hover {
+  background-color: yellow;
+  color: #1E3725;
+  border-radius: 10px;
 }
