@@ -1,0 +1,27 @@
+.main-container {
+  margin: 50px;
+  background-color: #C0E8D3;
+  height: 1000px;
+}
+
+
+.game {
+  margin: 100px;
+  border: 1px solid green;
+  width: 500px;
+}
+
+.cell {
+  height: 100px;
+  border: 1px solid red;
+}
+
+.cross {
+  background-image: url('/cross.png');
+  background-size: 169px 102px;
+}
+
+.circle {
+  background-image: url('/circle.png');
+  background-size: 169px 102px;
+}
